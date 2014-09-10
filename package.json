@@ -1,0 +1,43 @@
+{
+  "name": "web-server-cluster",
+  "version": "0.1.0",
+  "description": "Multi-core web server for node.js",
+  "main": "./lib/server.js",
+  "author": "Ryan Goldstein",
+  "contributors": [
+    {
+      "name": "Ryan Goldstein",
+      "email": "me@ryangoldstein.com"
+    }
+  ],
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "web-server",
+    "service",
+    "startup",
+    "init.d"
+  ],
+  "dependencies": {
+    "express": "~4.2.0",
+    "gs-clutch": "^0.1.1",
+    "restify": "^2.8.1",
+    "service-wrapper": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-mocha": "~0.4.1",
+    "gulp-jshint": "~1.6.1",
+    "gulp-jslint": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanGoldstein/web-server-cluster.git"
+  },
+  "engines": [
+    "node"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  }
+}
